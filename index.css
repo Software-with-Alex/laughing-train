@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+}
+
+
+
+body{
+    background-color: #3d0d2e;
+background-image: url("https://www.transparenttextures.com/patterns/purty-wood.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  
+}
+
+
+nav{
+    
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    background-color: rgb(65, 61, 66);
+    align-items: center;
+    color: rgb(214, 208, 208);
+    font-size: 20px;
+    margin-bottom: 15vh;
+
+}
+.logo{
+    font-size: 50px;
+    font-size: bold;
+    color: rgb(246, 84, 19);
+    font-family: 'Dancing Script', cursive;
+
+    
+
+}
+
+.logo-2{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.logo-2 li{
+    text-decoration: none;
+    list-style: none;
+    
+}
+.footer-div{
+    background-color: rgb(149, 161, 149);
+    text-align: center;
+   padding: 5px;
+}
+.nav-links{
+    
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+    list-style: none;
+    color: aliceblue;
+    align-items: center;
+    
+    
+    
+}
+nav-links li{
+    /* margin: 20px;
+    padding: 20px; */
+    display: flex;
+    justify-content: flex-end;
+
+}
+li:hover{
+    transform: scale(1.5);
+    color: white;
+}
+
+.nav-links a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    margin: auto;
+    height: 60vh;
+    width: 70vw;
+   
+    border-radius: 20px;
+    text-align: center;
+    
+   
+    
+}
+
+.carousel-caption{
+    font-size: 30px;
+    background-color: rgb(155, 92, 34);
+}
+.div-1{
+    font-size: 45px;
+    color: rgba(158, 154, 143, 0.883);
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+}
+.div-2{
+    font-size: 45px;
+    color: rgba(158, 154, 143, 0.883);
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+}
+.intro-div{
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    
+}
+
